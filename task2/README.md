@@ -9,7 +9,8 @@ This task involves calculating the total marks, average percentage, and grade fo
 - Assign grades based on the average percentage.
 
 ## How to Run
-1. Navigate to the `task2` folder.
-2. Compile the Java code using:
+1. Clone the repository.
+2. Navigate to the `task2` folder.
+3. Compile the Java code using:
    ```bash
-   javac src/main.java.task1.main.java.task2.Main.java src/main.java.task2.StudentGradeCalculator.java
+   javac src/main.java.task2.Task2Main.java src/main.java.task2.StudentGradeCalculator.java
