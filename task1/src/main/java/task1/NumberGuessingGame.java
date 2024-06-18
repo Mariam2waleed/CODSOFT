@@ -1,6 +1,4 @@
-package main.java;
-
-// src/NumberGuessingGame.java
+package main.java.task1;// src/main.java.task1.NumberGuessingGame.java
 import java.util.Random;
         import java.util.Scanner;
 

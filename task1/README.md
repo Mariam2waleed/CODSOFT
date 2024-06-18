@@ -14,4 +14,4 @@ This task involves creating a number guessing game where the user has to guess a
 1. Navigate to the `task1` folder.
 2. Compile the Java code using:
    ```bash
-   javac src/Main.java src/NumberGuessingGame.java
+   javac src/main.java.task1.main.java.task2.Main.java src/main.java.task1.NumberGuessingGame.java

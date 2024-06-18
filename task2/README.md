@@ -12,4 +12,4 @@ This task involves calculating the total marks, average percentage, and grade fo
 1. Navigate to the `task2` folder.
 2. Compile the Java code using:
    ```bash
-   javac src/Main.java src/StudentGradeCalculator.java
+   javac src/main.java.task1.main.java.task2.Main.java src/main.java.task2.StudentGradeCalculator.java

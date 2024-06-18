@@ -1,4 +1,4 @@
-// src/StudentGradeCalculator.java
+package main.java.task2;// src/main.java.task2.StudentGradeCalculator.java
 import java.util.Scanner;
 
 public class StudentGradeCalculator {
