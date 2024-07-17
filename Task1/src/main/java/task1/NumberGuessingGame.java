@@ -1,6 +1,7 @@
-package main.java.task1;// src/main.java.task1.NumberGuessingGame.java
+package main.java.task1;
+
 import java.util.Random;
-        import java.util.Scanner;
+import java.util.Scanner;
 
 public class NumberGuessingGame {
     public void play() {
@@ -9,30 +10,31 @@ public class NumberGuessingGame {
         boolean playAgain = true;
 
         while (playAgain) {
-            int number = random.nextInt(100) + 1;
+            int numberToGuess = random.nextInt(100 - 1) + 1;
             int attempts = 0;
-            int maxAttempts = 10;
+            int maxAttempt = 10;
             boolean guessedCorrectly = false;
 
             System.out.println("Guess the number between 1 and 100.");
+            System.out.println("You have 10 Trials");
 
-            while (attempts < maxAttempts && !guessedCorrectly) {
+            while (attempts < maxAttempt && !guessedCorrectly) {
                 System.out.print("Enter your guess: ");
                 int guess = scanner.nextInt();
                 attempts++;
 
-                if (guess < number) {
+                if (guess < numberToGuess) {
                     System.out.println("Too low!");
-                } else if (guess > number) {
+                } else if (guess > numberToGuess) {
                     System.out.println("Too high!");
                 } else {
                     guessedCorrectly = true;
-                    System.out.println("Correct! You've guessed the number in " + attempts + " attempts.");
+                    System.out.println("Correct! You've guessed the number in " + attempts + " trials.");
                 }
             }
 
             if (!guessedCorrectly) {
-                System.out.println("You've run out of attempts! The number was: " + number);
+                System.out.println("You've run out of trials! The number was: " + numberToGuess);
             }
 
             System.out.print("Do you want to play again? (yes/no): ");
